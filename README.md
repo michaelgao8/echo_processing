@@ -7,7 +7,7 @@ The echo studies are given in DICOM format, but also contain variation in the me
 
 ### Dependencies:
 
-The version of python used to run the code contained in this repository was `3.6.3`.
+The version of python used to run the code contained in this repository was `2.7.14`.
 
 The `mudicom` package has been modified for the purposes of this project. This is to extract a raw pixel stream due to issues with `mudicom`'s assumptions about the structure of the pixel data. The repository with the custom version is available here:
 https://github.com/michaelgao8/mudicom
@@ -22,7 +22,7 @@ One potential issue is with the following line:
 
 The symbolic link fails in some instances because the name of `_gdcmswig.so` has a different name. It is called something along the lines of `_gdcmswig_x86_...so` 
 
-Alternatively, Anaconda can install gdcm with `conda install -c conda-forge gdcm`
+Alternatively, Anaconda can install gdcm with `conda install -c conda-forge gdcm` (I think this also compiles gdcm to work with python3)
 
 ### TODO:
 

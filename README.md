@@ -9,7 +9,8 @@ The echo studies are given in DICOM format, but also contain variation in the me
 
 The version of python used to run the code contained in this repository was `3.6.3`.
 
-The `mudicom` package has been modified for the purposes of this project. This is to extract a raw pixel stream due to issues with `mudicom`'s assumptions about the structure of the pixel data. The repository with the custom version 
+The `mudicom` package has been modified for the purposes of this project. This is to extract a raw pixel stream due to issues with `mudicom`'s assumptions about the structure of the pixel data. The repository with the custom version is available here:
+https://github.com/michaelgao8/mudicom
 
 In addition, `mudicom` has depencies with installation instructions available here:
 
